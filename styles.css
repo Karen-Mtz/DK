@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 .tracking-in-contract {
     -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -15,7 +16,7 @@
     }
     100% {
       letter-spacing: normal;
-      opacity: 1;
+      opacity: 1; 
     }
 
   }
@@ -72,55 +73,59 @@
     }
   }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: "Open Sans"
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, auto);
-}
-
-.container > main {
+.cont > main {
     background-color: #F4ECE4;
-    padding: 20px;
-    grid-column: 1;
-    grid-column-end: -1;
-    height: 613px;
-    grid-row: span 2;
+    height: 635px;
     position: relative;
 }
 .hello {
-    color: #B35C49;
-    position: absolute;
-    z-index: 2;
-    font-size: 192px;
-    font-weight: 900;
+  color: #B35C49;
+  position: absolute;
+  z-index: 2;
+  font-size: 226px;
+  font-weight: 700;
+  margin-left: 28px;
+}
+.container {
+  margin-left: 36px;
+  position: absolute;
+  margin-top: 257px;
+  z-index: 3;
+}
+.options {
+      font-size: 28px;
+      font-family: "Raleway";
+      background: none;
+      border: none;
 }
 .box {
-    background-color: #EBB4A4;
-    position: relative;
-    float: right;
-    width: 66%;
-    height: 93%;
-    position: absolute;
-    z-index: 1;
-    margin-left: 30%
+  background-color: #EBB4A4;
+  position: relative;
+  float: right;
+  width: 66%;
+  height: 93%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 30%;
+  margin-top: 20px;
 }
 .name {
-    color: #925946;
-    text-align: justify;
-    margin-left: 270px;
-    margin-top: 224px;
-    font-size: 90px;
-    line-height: 94px;
+  color: #925946;
+  text-align: justify;
+  margin-left: 354px;
+  margin-top: 195px;
+  font-size: 90px;
+  line-height: 94px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  letter-spacing: 7px;
 }
-.front-end {
-    color: #9A6341
+.fe-text {
+    font-size: 30px;
+    background: black;
+    width: 39%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: -6px;
 }
