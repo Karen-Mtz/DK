@@ -204,3 +204,7 @@ border: none;
     height: 57%;
     margin-left: 27%;
 }
+
+.card {
+  background-color: rgba(red, green, blue, alpha)
+}
