@@ -1,37 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
+
+body {
+  background-color:  #f4ece4
+}
+
+section {
+  height: 100vh;
+}
 
 .cont {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
  }
-section {
-    height: 100vh;
-  }
-
+ 
 .home {
-  background-image: url("./assets/Web\ 1366\ –\ 1.png");
+    position: relative; 
+    background-image: url("./assets/Web\ 1366\ –\ 1.png");
     background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .hello {
+  font-family: 'Vidaloka', serif;
   color: #B35C49;
   position: absolute;
-  z-index: 2;
-  font-size: 226px;
-  font-weight: 700;
-  margin-left: 28px;
+  font-size: 172px;
+  font-weight: 300;
+  margin-left: 150px;
+  margin-top: 120px;
 }
-.container {
-  margin-left: 17px;
+
+
+.name {
+  color:#9A6341;;
+  font-size: 84px;
+  font-family: 'Vidaloka', serif;
+  font-weight: 300;
+  margin-top: 315px;
   position: absolute;
-  margin-top: 257px;
-  z-index: 3;
+  margin-left: 160px;
+  line-height: 67%
+}
+
+.fe-text {
+  font-family: 'Vidaloka', serif;
+  font-size: 50px;
+  color: #9A6341;
+  font-weight: 550;
+}
+
+.container {
+  margin-left: 560px;
+  position: absolute;
+  margin-top: 560px;
 }
 .options {
-  font-size: 30px;
+  font-size: 26px;
   font-family: "Raleway";
   background: none;
   color: #C45C4C !important;
@@ -48,41 +74,11 @@ border: none;
   width: 51%;
   margin-right: -78%;
   margin-left: 27px;
-  border-top: 5px solid #C45C4C;
+  border-top: 3px solid #C45C4C;
   margin-top: 11px;
 }
-.box {
-  position: relative;
-  float: right;
-  width: 66%;
-  height: 93%;
-  position: absolute;
-  z-index: 1;
-  margin-left: 30%;
-  margin-top: 20px;
-}
-.name {
-  color: #925946;
-  text-align: justify;
-  margin-left: 354px;
-  margin-top: 195px;
-  font-size: 120px;
-  line-height: 120px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  letter-spacing: 7px;  
-}
-.fe-text {
-  font-size: 35px;
-  background: #f6d1b7;
-  width: 47%;
-  border-radius: 10px;
-  text-align: center;
-  margin-left: 350px;
-  margin-top: -6px;
-  color: #9A6341;
-  font-weight: 700;
-}
+
+
 
 .projects {
   height: 100vh;
