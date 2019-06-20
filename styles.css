@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+.cont {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+ }
 section {
-      height: 100vh;
-    background-color: #F4ECE4;
+    height: 100vh;
   }
 
-.cont {
-  background-color: #F4ECE4
+.home {
+  background-image: url("./assets/Web\ 1366\ –\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-.cont > main {
-    background-color: #F4ECE4;
-    position: relative;
-}
 .hello {
   color: #B35C49;
   position: absolute;
@@ -50,7 +52,6 @@ border: none;
   margin-top: 11px;
 }
 .box {
-  background-color: #EBB4A4;
   position: relative;
   float: right;
   width: 66%;
@@ -88,6 +89,7 @@ border: none;
   display: block;
   background-color: #F4ECE4
 }
+
 
 h1 {
   color: #B35C49;
