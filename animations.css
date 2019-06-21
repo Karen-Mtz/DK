@@ -119,7 +119,7 @@
   }
   100% {
     background-position: 50% 85%;
-    background-size: contain;
+    background-size: 100% 100%;
   }
 }
 @keyframes bg-pan-bottom {
@@ -128,6 +128,6 @@
   }
   100% {
     background-position: 50% 85%;
-    background-size: contain;
+    background-size: 100% 100%;
   }
 }

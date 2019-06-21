@@ -26,10 +26,10 @@ section {
   font-family: 'Vidaloka', serif;
   color: #B35C49;
   position: absolute;
-  font-size: 172px;
+  font-size: 155px;
   font-weight: 300;
   margin-left: 150px;
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 
@@ -38,7 +38,7 @@ section {
   font-size: 84px;
   font-family: 'Vidaloka', serif;
   font-weight: 300;
-  margin-top: 315px;
+  margin-top: 265px;
   position: absolute;
   margin-left: 160px;
   line-height: 67%
@@ -52,9 +52,9 @@ section {
 }
 
 .container {
-  margin-left: 560px;
+  margin-left: 713px;
   position: absolute;
-  margin-top: 560px;
+  margin-top: 410px;
 }
 .options {
   font-size: 26px;
