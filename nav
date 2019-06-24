@@ -12,17 +12,20 @@
                 </ul>
               </nav>
 
-
-              PROJECTS
-
-               <article>
-        <h1>Projects</h1>
+PROJECTS
         <div class="work">
-          <img class="prjcts" src="./assets/Grupo 3.png">
-          <div class="middle">
-           <p>Burger Queen is a <b>progressive web app</b> where you can take orders from a fast food restaurant. <br>I built this project with:  <b> ReactJS, JSX, CSS.</b></p>
-          </div>
-          <img class="prjcts" src="./assets/Grupo 4.png">
-          <img class="prjcts" src="./assets/Grupo 5.png">
-        </div>
-      </article>
+          <img class="projects" src="./assets/Grupo 3.png">
+          <img class="projects" src="./assets/Grupo 4.png">
+          <img class="projects" src="./assets/Grupo 5.png">
+        </div>  
+
+CSS 
+
+.projects {
+  border: 40%;
+  margin-top: 10%;
+  margin-left: 5%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
