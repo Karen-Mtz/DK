@@ -9,14 +9,20 @@ body {
 
 section {
   height: 100vh;
-}
-
-.cont {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
- }
- 
+}
+
+h1 {
+  color: #B35C49;
+  font-size: 60px;
+  margin-left: 45px;
+  font-family: 'Vidaloka', serif;
+  font-weight: 900;
+  position: absolute
+}
+
 .home {
     position: relative; 
     background-image: url("./assets/Web\ 1366\ –\ 1.png");
@@ -33,7 +39,6 @@ section {
   margin-left: 150px;
   margin-top: 90px;
 }
-
 
 .name {
   color:#9A6341;;
@@ -53,24 +58,13 @@ section {
   font-weight: 550;
 }
 
-.container {
+.home-menu {
   margin-left: 713px;
   position: absolute;
   margin-top: 410px;
 }
 
-.options {
-  font-size: 26px;
-  font-family: "Raleway";
-  background: none;
-  color: #C45C4C !important;
-  font-weight: 500;
-margin-bottom: 10px;
-border: none;
-}
-
-
-.container .options:before {
+.home-menu .options:before {
   content: "";
   display: inherit;
   vertical-align: bottom;
@@ -81,42 +75,14 @@ border: none;
   margin-top: 11px;
 }
 
-
-
-.projects {
-  height: 100vh;
-  display: block;
-  background-color: #F4ECE4
-}
-
-.prjcts {
-    /* margin-right: auto; */
-    /* margin-left: auto; */
-    /* justify-content: center; */
-  
-    border: 40%;
-    margin-top: 10%;
-    margin-left: 5%;
-    opacity: 1;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-h1 {
-  color: #B35C49;
-  font-size: 60px;
-  margin-left: 45px;
-  font-family: "Open Sans";
-  font-weight: 900;
-  position: absolute
-}
-
-
-
-.pokedex{
-  width: 47%;
-    height: 57%;
-    margin-left: 27%;
+.options {
+  font-size: 26px;
+  font-family: "Raleway";
+  background: none;
+  color: #C45C4C !important;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border: none;
 }
 
 .navbar {
@@ -129,11 +95,10 @@ h1 {
 
 .navbar a {
   float: left;
-    display: block;
-    color: #C45C4C;
-    /* text-align: center; */
-    padding: 11px;
-    text-decoration: none;
+  display: block;
+  color: #C45C4C;
+  padding: 11px;
+  text-decoration: none;
 }
 
 .navbar a:hover {
@@ -143,6 +108,15 @@ h1 {
   width: 3%;
   border-top: 2px solid #C45C4C;
   margin-top: 10px;
+}
+
+.projects {
+  border: 40%;
+  margin-top: 10%;
+  margin-left: 5%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .about-me {
