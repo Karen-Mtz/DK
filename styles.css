@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color:  #f4ece4;
   overflow-x: hidden;
@@ -12,6 +16,10 @@ section {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -59,9 +67,9 @@ h1 {
 }
 
 .home-menu {
-  margin-left: 713px;
+  margin-left: 730px;
   position: absolute;
-  margin-top: 410px;
+  margin-top: 380px;
 }
 
 .home-menu .options:before {
@@ -73,6 +81,7 @@ h1 {
   margin-left: 27px;
   border-top: 3px solid #C45C4C;
   margin-top: 11px;
+  font-size: 275% !important
 }
 
 .options {
@@ -85,12 +94,15 @@ h1 {
   border: none;
 }
 
+.options:hover {
+  font-size: 170%
+}
 .navbar {
   position: fixed;
   top: 0;
   width: 30%;
   transition: top 0.3s;
-  margin-left: 67%;
+  margin-left: 60%;
 }
 
 .navbar a {
@@ -102,12 +114,7 @@ h1 {
 }
 
 .navbar a:hover {
-  content: "";
-  display: inherit;
-  vertical-align: text-bottom;
-  width: 3%;
-  border-top: 2px solid #C45C4C;
-  margin-top: 10px;
+  font-size: 125%
 }
 
 .my-projects {
@@ -174,4 +181,22 @@ h1 {
   font-size: 30px;
   color: #925946; 
   font-weight: 450
+}
+
+footer {
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+  margin-top: 2%;
+  color: 		#CA9279;
+  font-size: 5px;
+}
+
+footer a {
+  padding: 3%
+}
+
+i {
+  color: #D6816D;
+  font-size: 30px;
+
 }

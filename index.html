@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="animations.css">
   <!--  -->
@@ -14,21 +15,21 @@
 
 <body>
   <main>
-    <section class="home bg-pan-bottom">
+    <section class="home bg-pan-bottom" id="home">
       <h3 class="tracking-in-contract hello">Hello</h3>
       <p class="tracking-in-expand-fwd-bottom name">I'm Karen Marce<span
           class="tracking-in-expand-fwd-bottom fe-text"><br>Front-end developer </span></p>
       <article class="home-menu">
-        <button class="slide-in-fwd-center options">Check <b>my work</b></button>
-        <button class="slide-in-fwd-center options">Read <b>about me</b></button>
+        <button href="#work" class="slide-in-fwd-center options">Check <b>my work</b></button>
+        <button href="me" class="slide-in-fwd-center options">Read <b>about me</b></button>
         <button class="slide-in-fwd-center options"><b>Contact</b> me</button>
       </article>
     </section>
 
-    <section>
+    <section id="work">
       <nav id="navbar" class="navbar">
-        <a href="#home">Check <b>my work</b></a>
-        <a href="#news">Read <b>about me</b></a>
+        <a href="#work">Check <b>my work</b></a>
+        <a href="#me">Read <b>about me</b></a>
         <a href="#contact"><b>Contact</b> me</a>
       </nav>
       <article class="my-projects">
@@ -82,7 +83,7 @@
       </article>
     </section>
 
-    <section class="about-me">
+    <section id="me" class="about-me">
       <br><br>
       <br>
       <article class="about-karen">
@@ -102,9 +103,13 @@
       </article>
     </section>
 
-    <!-- <footer class="contact">
-      <h2>Contact</h2>
-    </footer> -->
+   <footer  id="contact" class="contact">
+      <h2>Let's talk!</h2>
+      <br>
+      <a href="mailto: dkareen.mtz@gmail.com"><i class="far fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/karen-marce/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+      <a href="https://github.com/Karen-Mtz"><i class="fab fa-github"></i></a>    
+    </footer>
   </main>
 
   <script src="animations.js"></script>
