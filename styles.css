@@ -187,12 +187,16 @@ footer {
   text-align: center;
   font-family: 'Vidaloka', serif;
   margin-top: 2%;
-  color: 		#CA9279;
+  color: 		#B35C49;;
   font-size: 5px;
 }
 
 footer a {
   padding: 3%
+}
+
+footer i:hover {
+  font-size: 400%
 }
 
 i {
