@@ -1,232 +1,315 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
-
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  background-color:  #f4ece4;
-  overflow-x: hidden;
+    background-color: #f4ece4;
+    overflow-x: hidden;
 }
 
 section {
-  height: 100vh;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h3 {
-  color: #B35C49;
-  font-size: 60px;
-  font-family: 'Vidaloka', serif;
-  font-weight: 900;
+    color: #B35C49;
+    font-size: 60px;
+    font-family: 'Vidaloka', serif;
+    font-weight: 900;
 }
 
 .home {
-    position: relative; 
+    position: relative;
     background-image: url("./assets/Web\ 1366\ –\ 1.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hello {
-  font-family: 'Vidaloka', serif;
-  color: #B35C49;
-  position: absolute;
-  font-size: 155px;
-  font-weight: 300;
-  margin-left: 150px;
-  margin-top: 90px;
+    font-family: 'Vidaloka', serif;
+    color: #B35C49;
+    position: absolute;
+    font-size: 155px;
+    font-weight: 300;
+    margin-left: 150px;
+    margin-top: 90px;
 }
 
 .name {
-  color:#9A6341;;
-  font-size: 84px;
-  font-family: 'Vidaloka', serif;
-  font-weight: 300;
-  margin-top: 265px;
-  position: absolute;
-  margin-left: 160px;
-  line-height: 67%
+    color: #9A6341;
+    ;
+    font-size: 84px;
+    font-family: 'Vidaloka', serif;
+    font-weight: 300;
+    margin-top: 265px;
+    position: absolute;
+    margin-left: 160px;
+    line-height: 67%
 }
 
 .fe-text {
-  font-family: 'Vidaloka', serif;
-  font-size: 50px;
-  color: #9A6341;
-  font-weight: 550;
+    font-family: 'Vidaloka', serif;
+    font-size: 50px;
+    color: #9A6341;
+    font-weight: 550;
 }
 
 .home-menu {
-  margin-left: 849px;
-  position: absolute;
-  margin-top: 380px;
+    margin-left: 849px;
+    position: absolute;
+    margin-top: 380px;
 }
 
 .home-menu .options:before {
-  content: "";
-  display: inherit;
-  vertical-align: bottom;
-  width: 51%;
-  margin-right: -78%;
-  margin-left: 27px;
-  border-top: 3px solid #C45C4C;
-  margin-top: 11px;
-  font-size: 275% !important
+    content: "";
+    display: inherit;
+    vertical-align: bottom;
+    width: 51%;
+    margin-right: -78%;
+    margin-left: 27px;
+    border-top: 3px solid #C45C4C;
+    margin-top: 11px;
+    font-size: 275% !important
 }
 
 .options {
-  font-size: 26px;
-  font-family: "Raleway";
-  background: none;
-  color: #C45C4C !important;
-  font-weight: 500;
-  margin-bottom: 10px;
-  border: none;
+    font-size: 26px;
+    font-family: "Raleway";
+    background: none;
+    color: #C45C4C !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border: none;
 }
 
 .options:hover {
-  font-size: 170%
+    font-size: 170%
 }
+
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 30%;
-  transition: top 0.3s;
-  margin-left: 60%;
+    position: fixed;
+    top: 0;
+    width: 30%;
+    transition: top 0.3s;
+    margin-left: 60%;
 }
 
 .navbar a {
-  float: left;
-  display: block;
-  color: #C45C4C;
-  padding: 11px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    color: #C45C4C;
+    padding: 11px;
+    text-decoration: none;
 }
 
 .navbar a:hover {
-  font-size: 125%
+    font-size: 125%
+}
+
+#my-work {
+    position: relative;
+    background-image: url("./assets/Web\ 1366\ –\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .my-projects {
-  padding: 4%;
-
+    padding: 4%;
 }
 
 .projects-p {
-  margin-top: 3%;
-  font-size: 25px;
-  color: #925946;
+    margin-top: 3%;
+    font-size: 25px;
+    color: #925946;
 }
 
 .container {
-  text-align: center;
-  width: 24%;
-  margin-top: 5%;
-  display: inline-block;
-  position: relative;
+    text-align: center;
+    width: 24%;
+    margin-top: 5%;
+    display: inline-block;
+    position: relative;
 }
 
 .image {
-  display: block;
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-  position: inherit;
+    display: block;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    position: inherit;
 }
 
 .iphone {
-  width: 89% !important 
-} 
+    width: 89% !important
+}
 
 .middle {
-  position: absolute;
-  top: 150;
-  bottom: 0;
-  height: 60%;
-  width: 70%;
-  transition: .5s ease;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: justify;
-  display: inline-block;
+    position: absolute;
+    top: 150;
+    bottom: 0;
+    height: 60%;
+    width: 70%;
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+    display: inline-block;
 }
 
 .container:hover .image {
-  opacity: 0.1;
+    opacity: 0.1;
 }
 
 .container:hover .middle {
-  opacity: 1;
+    opacity: 1;
 }
 
 .text {
-  color: #925946;
-  font-size: 17px;
+    color: #925946;
+    font-size: 17px;
 }
 
 .text h6 {
-  color: #B35C49;
-  font-weight: 600;
+    color: #B35C49;
+    font-weight: 600;
     font-family: 'Vidaloka', serif;
 }
 
 .text a {
-  text-decoration-line: underline;
-  color: #B35C49;
-  font-family: 'Vidaloka', serif;
+    text-decoration-line: underline;
+    color: #B35C49;
+    font-family: 'Vidaloka', serif;
 }
 
 .about-me {
-  background-image: url("http://i66.tinypic.com/29fazxe.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+    background-image: url("http://i66.tinypic.com/29fazxe.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .about-karen {
-  padding: 3%;
-  font-size: 41px;
-  color: #925946;
-  font-weight: 400;
+    padding: 3%;
+    font-size: 41px;
+    color: #925946;
+    font-weight: 400;
 }
 
 .about-karen a {
-  font-family: 'Vidaloka', serif;
-  /* background: #f4ece4; */
-  font-size: 35px;
-  padding: 1%;
+    font-family: 'Vidaloka', serif;
+    /* background: #f4ece4; */
+    font-size: 35px;
+    padding: 1%;
 }
 
 .about-karen a:hover {
-  font-size: 95%;
+    font-size: 95%;
 }
 
 footer {
-  text-align: center;
-  font-family: 'Vidaloka', serif;
-  margin-top: 2%;
-  color: 		#B35C49;;
-  font-size: 5px;
+    text-align: center;
+    font-family: 'Vidaloka', serif;
+    margin-top: 2%;
+    color: #B35C49;
+    ;
+    font-size: 5px;
 }
 
 footer a {
-  padding: 3%
+    padding: 3%
 }
 
 footer i:hover {
-  font-size: 900%
+    font-size: 900%
 }
 
 i {
-  color: #D6816D;
-  font-size: 30px;
+    color: #D6816D;
+    font-size: 30px;
+}
 
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+    .hello {
+        font-family: 'Vidaloka', serif;
+        color: #B35C49;
+        /* position: absolute; */
+        font-size: 92px;
+        font-weight: 300;
+        margin-left: 0;
+        margin-top: 0
+        /* padding: 6%; */
+    }
+    .name {
+        color: #9A6341;
+        font-size: 54px;
+        font-family: 'Vidaloka', serif;
+        font-weight: 300;
+        margin-top: 116px;
+        /* position: absolute; */
+        margin-left: 0;
+        line-height: 89%;
+    }
+    .fe-text {
+        font-family: 'Vidaloka', serif;
+        font-size: 29px;
+        color: #9A6341;
+        font-weight: 551;
+    }
+    .home {
+        padding: 9%;
+        /* position: relative; */
+        background-image: url(./assets//iPhone\ X-XS\ –\ 1.png);
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+    }
+    .home-menu {
+        margin-left: 0;
+        margin-top: 291px;
+    }
+    .navbar {
+        display: none
+    }
+    .container {
+        text-align: center;
+        margin-top: 9%;
+        width: 100%;
+        /* display: inline-block; */
+        /* position: relative; */
+    }
+    .middle {
+        position: inherit;
+        opacity: 1;
+        margin-top: 10%;
+        width: 85%;
+        transform: none;
+    }
+    .image {
+        display: inline-block;
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        position: inherit;
+    }
+    .about-me {
+        display: none
+    }
+    .contact {
+        display: none
+    }
 }
