@@ -313,7 +313,7 @@ i {
     .about-karen {
         padding: 5%;
         font-size: 20px;
-        background-size: auto;
+        background-size: auto !important;
     }
     .about-karen a {
         font-size: 25px;
