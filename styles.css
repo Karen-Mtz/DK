@@ -306,8 +306,17 @@ i {
         height: 100%;
         position: inherit;
     }
-    .about-me {
-        display: none
+    #my-work {
+        display: inline;
+        background-image: url("./assets/iPhone\ X-XS\ –\ 2.png");
+    }
+    .about-karen {
+        padding: 5%;
+        font-size: 20px;
+        background-size: auto;
+    }
+    .about-karen a {
+        font-size: 25px;
     }
     .contact {
         display: none
