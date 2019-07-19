@@ -11,3 +11,104 @@
                   </li> 
                 </ul>
               </nav>
+
+PROJECTS
+        <div class="work">
+          <img class="projects" src="./assets/Grupo 3.png">
+          <img class="projects" src="./assets/Grupo 4.png">
+          <img class="projects" src="./assets/Grupo 5.png">
+        </div>  
+
+CSS 
+
+.projects {
+  border: 40%;
+  margin-top: 10%;
+  margin-left: 5%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+      <article class="my-projects">
+          <h1>Projects</h1>
+        <div class="container">
+          <img src="./assets/Grupo 3.png" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text">Burger Queen is a <b>progressive web 
+              <br> app</b> where you can take orders from <br> 
+              a fast food restaurant. 
+              <br>I built this project with: <br>
+               <b> ReactJS, JSX, CSS.</b></div>
+               <br>
+               <a class="card-text" href="https://github.com/Karen-Mtz/BQ-test" target="_blank"><small class="text-muted">Code</small></a>
+               <a class="card-text" href="https://karen-mtz.github.io/BQ-test/" target="_blank"><small class="text-muted">Demo</small></a>
+             </div>
+           </div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/Grupo 4.png" alt="Avatar" class="image" style="width:100%">
+          <div class="middle">
+            <div class="text">
+              Is a <b>social network</b> for people <br>
+              interested in renewable energy and <br>
+              self-sustainability projects. <br>
+              This <b>single-page-application</b> allows <br>
+               you to share stories related to ecology.<br>
+               I built this project with:  <b> Vanilla JS, Firebase, <br> 
+                Materialize, HTML.</b></p>
+                <br>
+                <a class="card-text" href="https://github.com/Karen-Mtz/CDMX007-social-network" target="_blank"><small class="text-muted">Code</small></a>
+                <a class="card-text" href="https://claudiaramirez.github.io/CDMX007-social-network/src/#home" target="_blank"><small class="text-muted">Demo</small></a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/Grupo 5.png" alt="Avatar" class="image iphone" style="width:100%">
+          <div class="middle">
+            <div class="text">
+                This is an interface where you can visualize, 
+                filter and sort data related to pokemon.
+                I built this project with:  <b> Vanilla JS, 
+                  CSS, HTML.</b>
+                <a class="card-text" href="https://github.com/Karen-Mtz/cdmx-2019-01-bc-core-data-lovers" target="_blank"><small class="text-muted">Code</small></a>
+                <a class="card-text" href="https://karen-mtz.github.io/cdmx-2019-01-bc-core-data-lovers/src/" target="_blank"><small class="text-muted">Demo</small></a>  
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <img src="./assets/Grupo 6.png" alt="Avatar" class="image iphone" style="width:100%">
+            <div class="middle">
+              <div class="text">
+                  This is an interface where you can visualize, <br>
+                  filter and sort data related to pokemon.<br>
+                  I built this project with:  <b> Vanilla JS, <br> 
+                    CSS, HTML.</b>
+                    <br>
+                  <a class="card-text" href="https://github.com/Karen-Mtz/cdmx-2019-01-bc-core-data-lovers" target="_blank"><small class="text-muted">Code</small></a>
+                  <a class="card-text" href="https://karen-mtz.github.io/cdmx-2019-01-bc-core-data-lovers/src/" target="_blank"><small class="text-muted">Demo</small></a>  
+              </div>
+            </div>
+          </div>
+      </article>
+    </section>
+
+    <section id="about-me" class="about-me">
+      <br><br>
+      <br>
+      <article class="about-karen">
+        <br><br><br><br>
+        <h1>About me</h1>
+        <br><br> <br>
+        <br><br>
+        <p>Hello my name is Karen Martínez Marce and I love building things online.
+          <br>I am a graduate of the seventh generation of Laboratoria Coding, an intensive
+          <br>programming bootcamp, in which I developed projects with Javascript,
+          <br>Firebase, React, Nodejs and CSS. I'm also interested in the development
+          <br>of mobile applications and as a web developer I seek to propose
+          <br>solutions with creative digital products.
+          <br><br>
+          <a class="options" href="https://drive.google.com/file/d/15MdQFk9g4Bs9Vyc0uzEdUCAu1ePWRqOy/view?usp=sharing"
+            target="_blank">Check my cv</a></p>
+      </article>
