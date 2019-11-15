@@ -38,11 +38,11 @@ h3 {
 .hello {
     font-family: 'Vidaloka', serif;
     color: #B35C49;
-    position: absolute;
+    position: relative;
     font-size: 155px;
     font-weight: 300;
-    margin-left: 150px;
-    margin-top: 90px;
+    left: 150px;
+    top: 90px;
 }
 
 .name {
@@ -51,9 +51,9 @@ h3 {
     font-size: 84px;
     font-family: 'Vidaloka', serif;
     font-weight: 300;
-    margin-top: 265px;
-    position: absolute;
-    margin-left: 160px;
+    top: 78px;
+    position: relative;
+    left: 160px;
     line-height: 67%
 }
 
@@ -65,9 +65,8 @@ h3 {
 }
 
 .home-menu {
-    margin-left: 849px;
-    position: absolute;
-    margin-top: 380px;
+    position: relative;
+    width: 100%;
 }
 
 .home-menu .options:before {
@@ -83,13 +82,19 @@ h3 {
 }
 
 .options {
-    font-size: 26px;
+    font-size: 24px;
     font-family: "Raleway";
     background: none;
     color: #C45C4C !important;
     font-weight: 500;
     margin-bottom: 10px;
     border: none;
+}
+
+.options-cont {
+    position: relative;
+    left: 50%;
+    top: 40px;
 }
 
 .options:hover {
@@ -99,9 +104,13 @@ h3 {
 .navbar {
     position: fixed;
     top: 0;
-    width: 30%;
+    width: 100%;
     transition: top 0.3s;
-    margin-left: 60%;
+}
+
+.nav-cont {
+    position: relative;
+    left: 70%;
 }
 
 .navbar a {
@@ -193,7 +202,7 @@ h3 {
 }
 
 .about-me {
-    background-image: url("http://i66.tinypic.com/29fazxe.png");
+    background-image: url("./assets/About\ –\ 1.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -309,6 +318,9 @@ i {
     #my-work {
         display: inline;
         background-image: url("./assets/iPhone\ X-XS\ –\ 2.png");
+    }
+    .about-me {
+        background-size: auto;
     }
     .about-karen {
         padding: 5%;
