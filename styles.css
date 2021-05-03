@@ -1,333 +1,218 @@
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
-html {
-    scroll-behavior: smooth;
-}
 
 body {
-    background-color: #f4ece4;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
-
-section {
-    height: 100vh;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+.back {
+    background-image: url(./assets/Web\ 1366\ –\ 1.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(./assets/Web\ 1366\ –\ 2.png);
     background-size: cover;
 }
-
-h3 {
-    color: #B35C49;
-    font-size: 60px;
-    font-family: 'Vidaloka', serif;
-    font-weight: 900;
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
 }
-
-.home {
-    position: relative;
-    background-image: url("./assets/Web\ 1366\ –\ 1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.nav-list li {
+    justify-self: flex-end;
 }
-
-.hello {
-    font-family: 'Vidaloka', serif;
-    color: #B35C49;
-    position: relative;
-    font-size: 155px;
-    font-weight: 300;
-    left: 150px;
-    top: 90px;
+.nav-list li:first-child {
+    justify-self: auto
 }
-
-.name {
-    color: #9A6341;
-    ;
-    font-size: 84px;
-    font-family: 'Vidaloka', serif;
-    font-weight: 300;
-    top: 78px;
-    position: relative;
-    left: 160px;
-    line-height: 67%
-}
-
-.fe-text {
-    font-family: 'Vidaloka', serif;
-    font-size: 50px;
-    color: #9A6341;
-    font-weight: 550;
-}
-
-.home-menu {
-    position: relative;
-    width: 100%;
-}
-
-.home-menu .options:before {
-    content: "";
-    display: inherit;
-    vertical-align: bottom;
-    width: 51%;
-    margin-right: -78%;
-    margin-left: 27px;
-    border-top: 3px solid #C45C4C;
-    margin-top: 11px;
-    font-size: 275% !important
-}
-
-.options {
-    font-size: 24px;
+ .nav-list_item a {
+    display: block;
+    padding: 20px;
     font-family: "Raleway";
-    background: none;
-    color: #C45C4C !important;
-    font-weight: 500;
-    margin-bottom: 10px;
-    border: none;
-}
-
-.options-cont {
-    position: relative;
-    left: 50%;
-    top: 40px;
-}
-
-.options:hover {
-    font-size: 170%
-}
-
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    transition: top 0.3s;
-}
-
-.nav-cont {
-    position: relative;
-    left: 70%;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #C45C4C;
-    padding: 11px;
     text-decoration: none;
-}
+    color: #C45C4C;
+    font-weight: 800;
+    font-size: 18px;
+  }
 
-.navbar a:hover {
-    font-size: 125%
+  .above {
+    padding: 20px;
+    width: 100wv;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
-
-#my-work {
-    position: relative;
-    background-image: url("./assets/Web\ 1366\ –\ 2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.my-projects {
-    padding: 4%;
-}
-
-.projects-p {
-    margin-top: 3%;
-    font-size: 25px;
-    color: #925946;
-}
-
-.container {
+.above-img_cont {
     text-align: center;
-    width: 24%;
-    margin-top: 5%;
-    display: inline-block;
-    position: relative;
+}
+  .above_photo {
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+    border-radius: 85%;
 }
 
-.image {
-    display: block;
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-    position: inherit;
+.above_title {
+    font-family: 'Vidaloka', serif;
+    color: #B35C49;
+    font-size: 65px;
+    line-height: 1em;
+    margin: 0
 }
-
-.iphone {
-    width: 89% !important
+.above_title_2 {
+    font-size: 35px;
+    font-weight: 100;
+    color: #9A6341;
+    margin: 5px 0;
 }
-
-.middle {
-    position: absolute;
-    top: 150;
-    bottom: 0;
-    height: 60%;
-    width: 70%;
-    transition: .5s ease;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: justify;
-    display: inline-block;
+.cta_cv {
+    background-color: #B35C49;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Raleway";
 }
-
-.container:hover .image {
-    opacity: 0.1;
-}
-
-.container:hover .middle {
-    opacity: 1;
-}
-
-.text {
+.above_txt {
     color: #925946;
     font-size: 17px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    max-width: 70%;
+    margin-bottom: 35px;
 }
-
-.text h6 {
-    color: #B35C49;
-    font-weight: 600;
+.above-txt_cont {
+    justify-content: center;
+    display: grid;
+}
+.projects,
+.aboutme {
+    padding: 20px;
+}
+.section_title {
     font-family: 'Vidaloka', serif;
-}
-
-.text a {
-    text-decoration-line: underline;
     color: #B35C49;
-    font-family: 'Vidaloka', serif;
+    font-size: 40px;
+    margin: 20px 0;
 }
-
-.about-me {
-    background-image: url("./assets/About\ –\ 1.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.about-karen {
-    padding: 3%;
-    font-size: 41px;
+.gnral_txt {
     color: #925946;
+    font-size: 17px;
+    font-family: 'Raleway';
     font-weight: 400;
 }
-
-.about-karen a {
-    font-family: 'Vidaloka', serif;
-    /* background: #f4ece4; */
-    font-size: 35px;
-    padding: 1%;
+.projects_cards_cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-.about-karen a:hover {
-    font-size: 95%;
-}
-
-footer {
+.project_card {
     text-align: center;
+    padding: 0 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.project_card img {
+    height: 65%;
+    width: 65%;
+}
+.project_card h3 {
     font-family: 'Vidaloka', serif;
-    margin-top: 2%;
     color: #B35C49;
-    ;
-    font-size: 5px;
+    font-size: 23px;
+    margin: 10px;
 }
-
-footer a {
-    padding: 3%
+.project_card .gnral_txt {
+    margin: 15px 0;
 }
-
-footer i:hover {
-    font-size: 900%
+.project_card a {
+    font-family: 'Vidaloka';
+    color: #B35C49;
+    padding: 0 12px;
+    font-size: 18px;
 }
-
+.aboutme p {
+    font-size: 24px;
+    color: #925946;
+    font-family: 'Raleway';
+}
 i {
     color: #D6816D;
-    font-size: 30px;
+    font-size: 35px;
+}
+footer {
+    background-color: #ffdfd7;
+    text-align: center;
+    padding: 20px 0;
+}
+footer h2 {
+    margin: 0;
+    font-weight: 300;
+}
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 30%;
+    margin: 0 auto;
+}
+.aboutme {
+    margin-bottom: 30px;
+}
+
+.mobile-links {
+    display: none;
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-    body {
-        overflow-x: hidden;
-    }
-    .hello {
-        font-family: 'Vidaloka', serif;
-        color: #B35C49;
-        /* position: absolute; */
-        font-size: 92px;
-        font-weight: 300;
-        margin-left: 0;
-        margin-top: 0
-        /* padding: 6%; */
-    }
-    .name {
-        color: #9A6341;
-        font-size: 54px;
-        font-family: 'Vidaloka', serif;
-        font-weight: 300;
-        margin-top: 116px;
-        /* position: absolute; */
-        margin-left: 0;
-        line-height: 89%;
-    }
-    .fe-text {
-        font-family: 'Vidaloka', serif;
-        font-size: 29px;
-        color: #9A6341;
-        font-weight: 551;
-    }
-    .home {
-        padding: 9%;
-        /* position: relative; */
-        background-image: url(./assets//iPhone\ X-XS\ –\ 1.png);
-        /* background-repeat: no-repeat; */
-        /* background-size: cover; */
-    }
-    .home-menu {
-        margin-left: 0;
-        margin-top: 291px;
-    }
+  @media only screen and (max-width: 768px) {
     .navbar {
-        display: none
+        display: none;
     }
-    .container {
+    .mobile-links {
+        display: block;
+    }
+    .above {
+        display: block;
+        max-width: 100vw;
         text-align: center;
-        margin-top: 9%;
-        width: 100%;
-        /* display: inline-block; */
-        /* position: relative; */
     }
-    .middle {
-        position: inherit;
-        opacity: 1;
-        margin-top: 10%;
-        width: 85%;
-        transform: none;
+    .above_txt {
+        max-width: unset;
     }
-    .image {
-        display: inline-block;
-        opacity: 1;
-        width: 100%;
-        height: 100%;
-        position: inherit;
+    .above-img_cont {
+        width: unset;
     }
-    #my-work {
-        display: inline;
-        background-image: url("./assets/iPhone\ X-XS\ –\ 2.png");
+    .projects_cards_cont {
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
     }
-    .about-me {
-        background-size: auto;
+    .footer-links {
+        max-width: 80%;
     }
-    .about-karen {
-        padding: 5%;
-        font-size: 20px;
-        background-size: auto !important;
+
+    .above_photo {
+        height: 200px;
+        width: 200px;
     }
-    .about-karen a {
-        font-size: 25px;
-    }
-}
+    .mobile-links {
+        display: flex;
+        justify-content: space-around; 
+        margin-top: 20px;
+     }
+     .mobile-links a {
+        font-family: "Raleway";
+        text-decoration: none;
+        color: #C45C4C;
+        font-weight: 800;
+        font-size: 16px;
+        padding: 0 5px;
+     }
+  }

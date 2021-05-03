@@ -2,134 +2,116 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Karen Marce</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Martínez Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="animations.css">
-  <!--  -->
 </head>
 
 <body>
-  <main>
-    <section class="home bg-pan-bottom" id="home">
-      <h1 class="tracking-in-contract hello">Hello</h1>
-      <p class="tracking-in-expand-fwd-bottom name">I'm Karen Marce<span
-          class="tracking-in-expand-fwd-bottom fe-text"><br>Front-end developer </span></p>
-      <article class="home-menu">
-        <div class="options-cont">
-        <button onclick="location.href='#my-work'" class="slide-in-fwd-center options">Check <b>my work</b></button>
-        <button onclick="location.href='#about-me'" class="slide-in-fwd-center options">Read <b>about me</b></button>
-        <button onclick="location.href='#contact'" class="slide-in-fwd-center options"><b>Contact</b> me</button>
-      </div>
-      </article>
-    </section>
-
-    <section id="my-work">
-      <nav id="navbar" class="navbar">
-        <div class="nav-cont">
-        <a href="#my-work">Check <b>my work</b></a>
-        <a href="#about-me">Read <b>about me</b></a>
-        <a href="#contact"><b>Contact</b> me</a>
-      </div>
-      </nav>
-      <article class="my-projects">
-        <h3>Projects</h3>
-        <p class="projects-p">
-            Here are some projects that I've been working on for the last six months:</p>
-        <div class="container">
-            <img src="./assets/Grupo 11.png" alt="Avatar" class="image iphone" style="width:100%">
-            <div class="middle">
-              <div class="text">
-                <h6>Cat dog toe</h6>
-                <p>This is a <b>native application</b> of the tic tac toe game for preschool children.
-                <br><b>Tools: React Native and Expo.</b><br>
-                <a href="https://github.com/Karen-Mtz/CDMX007-TIC-TAC-TOE-RN" target="_blank">See code</a>
-                <br>
-                <a href="https://expo.io/@karen-marce/cat-dog" target="_blank">Go to demo</a>
-              </p>
-              </div>
+    <main>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-list_item"><a href="#Start">Karen</a></li>
+                <li class="nav-list_item"><a href="#Proyectos">Mis proyectos</a></li>
+                <li class="nav-list_item"><a href="#Acercademi">Sobre mi</a></li>
+                <li class="nav-list_item"><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="above" id="Start">
+            <div class="above-txt_cont">
+                <h1 class="above_title">Hola, soy<br>Karen Martínez<br></h1>
+                <p  class="above_title_2">Frontend developer</p>
             </div>
-          </div>
-        <div class="container">
-          <img src="./assets/Grupo 8.png" alt="Avatar" class="image" style="width:100%">
-          <div class="middle">
-            <div class="text">
-              <h6>Burger Queen</h6>
-              <p>Is a <b>progressive web app</b> where you can take orders from a fast food restaurant. <br> <b> Tools:
-                  ReactJS, JSX, CSS.</b>
-                <br>
-                <a href="https://github.com/Karen-Mtz/BQ-test" target="_blank">See code </a> <br>
-                <a href="https://karen-mtz.github.io/BQ-test/" target="_blank">Go to demo</a>
-              </p>
+            <div class="above-img_cont">
+                <img src="/assets/karen-picture.jpg" alt="" class="above_photo">
             </div>
-          </div>
-        </div>
-        </div>
-        <div class="container">
-          <img src="./assets/Grupo 9.png" alt="Avatar" class="image" style="width:100%">
-          <div class="middle">
-            <div class="text">
-              <h6>Sprout-Think</h6>
-              <p>Is a <b>social network</b> for people interested in echology. This <b>spa</b> allows you to
-                share stories, ideas and projects. <br><b>Tools: Firebase, Materialize, ECMAScript 6, HTML</b>
-                <br>
-                <a href="https://github.com/Karen-Mtz/CDMX007-social-network" target="_blank">See code</a> <br>
-                <a href="https://karen-mtz.github.io/CDMX007-social-network/src/#home" target="_blank">Go to
-                  demo</a>
-              </p>
+            <div class="mobile-links">
+                <a href="#Proyectos">Mis proyectos</a>
+                <a href="#Acercademi">Sobre mi</a>
+                <a href="#Contacto">Contacto</a>
             </div>
-          </div>
-        </div>
-        <div class="container">
-          <img src="./assets/Grupo 10.png" alt="Avatar" class="image iphone" style="width:100%">
-          <div class="middle">
-            <div class="text">
-              <h6>Pokedex</h6>
-              <p>This is an interface where you can <b>visualize, filter and sort</b> data related to pokemon.
-                <br><b>Tools: ECMAScript 6, CSS3, HTML.</b>
-                <br>
-                <a href="https://github.com/Karen-Mtz/cdmx-2019-01-bc-core-data-lovers" target="_blank">See code</a>
-                <br>
-                <a href="https://karen-mtz.github.io/cdmx-2019-01-bc-core-data-lovers/src/" target="_blank">Go to
-                  demo</a>
-              </p>
+        </section>
+        <section class="projects" id="Proyectos">
+            <h2 class="section_title">Mis proyectos</h2>
+            <p class="gnral_txt">Aquí hay algunos proyectos en los que he estado trabajando durante los últimos
+                meses:</p>
+            <div class="projects_cards_cont">
+                <div class="project_card">
+                    <img src="./assets/Grupo 11.png">
+                    <h3>Cat Dog Toe</h3>
+                    <p class="gnral_txt">Aplicación desarrollada con React Native del juego de tic tac toe para niños
+                    </p>
+                    <div>
+                        <a href="https://github.com/Karen-Mtz/CDMX007-TIC-TAC-TOE-RN" target="_blank">Código</a>
+                        <a href="https://expo.io/@karen-marce/cat-dog" target="_blank">Demo</a>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <img src="./assets/Grupo 8.png">
+                    <h3>Burger Queen</h3>
+                    <p class="gnral_txt">PWA para tomar las órdenes de un restaurante de comida rápida. Desarrolada
+                        con ReactJS</p>
+                    <div>
+                        <a href="https://github.com/Karen-Mtz/BQ-test" target="_blank">Código</a>
+                        <a href="https://karen-mtz.github.io/BQ-test/" target="_blank">Demo</a>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <img src="./assets/Grupo 9.png">
+                    <h3>Sprout-Think</h3>
+                    <p class="gnral_txt">Red social para personas interesadas en tecnología. Desarrollada con
+                        Firebase, Materialize, ECMAScript 6</p>
+                    <div>
+                        <a href="https://github.com/Karen-Mtz/CDMX007-social-network" target="_blank">Código</a>
+                        <a href="https://karen-mtz.github.io/CDMX007-social-network/src/#home" target="_blank">Demo</a>
+                    </div>
+                </div>
+                <div class="project_card">
+                    <img src="./assets/Grupo 10.png">
+                    <h3>Data Lovers</h3>
+                    <p class="gnral_txt">Esta es una interfaz en donde puedes filtrar, ordenar y visualizar data
+                        sobre Pókemon </p>
+                    <div>
+                        <a href="https://github.com/Karen-Mtz/cdmx-2019-01-bc-core-data-lovers"
+                            target="_blank">Código</a>
+                        <a href="https://karen-mtz.github.io/cdmx-2019-01-bc-core-data-lovers/src/"
+                            target="_blank">Demo</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section id="about-me" class="about-me">
-      <br><br>
-      <br>
-      <article class="about-karen">
-        <h3>About me</h3>
-        <p>Hello my name is Karen Martínez Marce and I love building things online.
-         I am a graduate of the seventh generation of Laboratoria Coding, an intensive
-         programming bootcamp, in which I developed projects with Javascript,
-          Firebase, React, Nodejs and CSS. I'm also interested in the development
-          of mobile applications and as a web developer I seek to propose
-          solutions with creative digital products.</p>
-          <a class="options" href="https://drive.google.com/file/d/15MdQFk9g4Bs9Vyc0uzEdUCAu1ePWRqOy/view?usp=sharing"
-            target="_blank">Check my cv</a>
-      </article>
-    </section>
-
-    <footer id="contact" class="contact">
-      <h2>Let's talk!</h2>
-      <br>
-      <a href="mailto: dkareen.mtz@gmail.com"><i class="far fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/karen-marce/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://github.com/Karen-Mtz" target="_blank"><i class="fab fa-github"></i></a>
-    </footer>
-  </main>
-
-  <script src="animations.js"></script>
+        </section>
+        <section class="aboutme" id="Acercademi">
+            <h2 class="section_title">Acerca de mi:</h2>
+            <p>Hola, soy Karen Martínez, frontend developer con conocimientos en diseño gráfico digital.
+                Soy egresada de la séptima generación de Laboratoria Coding, un bootcamp intensivo
+                de programación, en el cual, durante 6 meses, realicé proyectos con JavaScript, HTML. CSS y
+                metodologías ágiles 
+                Me gusta trabajar en equipo, fijarme objetivos y trabajar en ellos. También me interesa mucho la tecnología y me
+                gusta mucho aprender cosas nuevas.</p>
+                <a class="cta_cv" href="https://drive.google.com/file/d/1RbEfGyEujtPp98dflF2PJL2Dz9s60iLj/view?usp=sharing" target="_blank">Consulta mi CV</a>
+        </section>
+        <footer id="Contacto">
+            <h2 class="section_title">Contáctame</h2>
+            <div class="footer-links">
+                <div>
+                    <a href="mailto: dkareen.mtz@gmail.com"><i class="far fa-envelope"></i></a>
+                    <p class="gnral_txt">Mail</p>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/karen-marce/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <p class="gnral_txt">Linkedin</p>
+                </div>
+                <div>
+                    <a href="https://github.com/Karen-Mtz" target="_blank"><i class="fab fa-github"></i></a>
+                    <p class="gnral_txt">Github</p>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>
